@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Book Recs App</title>
+    </head>
+    <body>
+    <!-- HTML5 has some elements that identify different content areas. These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility. -->
+    <main>
+            <h1> Book Recommendation App </h1>
+            <section>
+                <h2> Book Photos </h2>
+                <!-- Add all book pics in store -->
+                <p> All the <a href="https://www.goodreads.com/">books</a> in our store are here</p>
+                <!-- For links : <img src="https://www.example.com/the-image.jpg"> -->
+                <!-- For img from pc -->
+                <a href="https://www.goodreads.com/en/book/show/53086843"><h3>You've Reached Sam</h3></a>
+                <img src="/images/1.jpg" width="300" height="300" alt="Book: You've Reached Sam">
+                <br><br>
+                <a href="https://www.goodreads.com/en/book/show/53086843" target="_blank">See the book on goodreads</a>
+
+                <a href="https://www.goodreads.com/book/show/12232938-the-lovely-bones"><h3>The Lovely Bones</h3></a>
+                <img src="/images/2.jpg" width="300" height="300" alt="Book: The Lovely Bones">
+                <br><br>
+                <a href="https://www.goodreads.com/book/show/12232938-the-lovely-bones" target="_blank">See the book on goodreads</a>
+
+                <a href="https://www.goodreads.com/book/show/50523477-the-jasmine-throne"><h3>The Jasmine Throne</h3></a>
+                <img src="/images/3.jpg" width="300" height="300" alt="Book: The Jasmine Throne">
+                <br><br>
+                <a href="https://www.goodreads.com/book/show/50523477-the-jasmine-throne" target="_blank">See the book on goodreads</a>
+
+            </section>
+            <section>
+                <h2>Book Recs List</h2>
+                <h3>Fiction Books:</h3>
+                <ul>
+                    <li>The invisible life of Addie Larue</li>
+                    <li>Hani and Ishu's Guide to Fake Dating</li>
+                    <li>The Liar's Crown</li>
+                </ul>
+                <!-- The figure element represents self-contained content and will allow you to associate an image with a caption. A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element. -->
+                <figure>
+                    <img src="/images/6.jpg" height="300" width="600">
+                    <figcaption><em>Fiction</em> Book Recs</figcaption>
+                </figure>
+
+                <h3>Non-Fiction Book Recs</h3>
+                <ol>
+                    <li>The Maverick Effect</li>
+                    <li>The Diary of A Young Girl</li>
+                    <li>Atomic Habits</li>
+                </ol>
+                <figure>
+                    <img src="/images/7.jpg" height="300" width="600">
+                    <figcaption><strong>Non-Fiction</strong> Book Recs</figcaption>
+            </section>
+            <section>
+                <h2>Submit your Recommendation</h2>
+                <form action="#">
+                    <input type="text" name="bookrecs" placeholder="Enter book name" required>
+                    <fieldset>
+                        <legend>Book Type</legend>
+                        <label><input name="type of book" id="fiction" type ="radio" value="fiction"> Fiction</label>
+                        <label><input name="type of book" id="nonfiction" type ="radio" value="nonfiction"> Non-Fiction</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Book Genre</legend>
+                        <label><input name="genre" id="romance" type ="checkbox" value="romance"> Romance</label>
+                        <label><input name="genre" id="thriller" type ="checkbox" value="thriller"> Thriller</label>
+                        <label><input name="genre" id="mystery" type ="checkbox" value="mystery"> Mystery</label>
+                        <label><input name="genre" id="horror" type ="checkbox" value="horror"> Horror</label>
+                        <label><input name="genre" id="fantasy" type ="checkbox" value="fantasy"> Fantasy</label>
+                        <label><input name="genre" id="sci-fi" type ="checkbox" value="sci-fi"> Sci-Fi</label>
+                        <label><input name="genre" id="biography" type ="checkbox" value="biography"> Biography</label>
+                        <label><input name="genre" id="autobiography" type ="checkbox" value="autobiography"> Autobiography</label>
+                        <label><input name="genre" id="history" type ="checkbox" value="history"> History</label>
+                        <label><input name="genre" id="self-help" type ="checkbox" value="self-help"> Self-Help</label>
+                        <label><input name="genre" id="other" type ="checkbox" value="other"> Other</label>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Created by <a href="#">Krupali</a></p>
+        </footer>
+        </body>
+</html>
